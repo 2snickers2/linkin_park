@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+
+}
+a{
+    text-decoration: none;
+}
+.menu{
+    width: 100%;
+    height: 10%;
+    background-color: rgb(184, 184, 184);
+    display: flex;
+    transition: all 0.5s ease;
+
+}
+.logo img{
+    width: 60px;
+    height: 50px;
+    margin-left: 50vh;
+    object-fit: cover;
+}
+.menu_item{
+    width: 40%;
+    margin-left: 50vh;
+    padding: 15px;
+    align-items: center;
+
+}
+li{
+    display: block;
+    position: relative;
+ 
+}
+.menu_item ul li{
+    display: inline-block;
+    padding-left: 20px;
+
+}
+.menu_item ul li img{
+    width: 17px;
+    height: 17px;
+    float: left;
+    margin-right: 5px;
+}
+.menu a{
+    color: #000;
+    font-weight: 500;
+}
+li:hover {
+    cursor: pointer;
+}
+ul li ul{
+    visibility: hidden;
+    background-color: rgba(128, 128, 128, 0.747);
+    border-radius: 20px;
+    display: none;
+    position: absolute;
+    min-width: 5rem;
+    padding-top: 15px;
+      transition: all 0.5s ease;
+}
+.name_albums{
+    width: 200px;
+
+}
+ul li:hover > ul,  li ul:hover{
+    visibility: visible;
+    opacity: 1;
+    display: block;
+    transition: all 0.5s ease;
+}
+ul li ul li {
+    clear: both;
+    width: 100%;
+    padding-top: 8px;
+}
+ul li ul li a:hover{
+    font-weight: 600;
+    color: white;
+}
+.link_about{
+    width: 800px;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0);
+}

@@ -1,0 +1,11 @@
+.collective{
+    width: 150px;
+    position: fixed;
+}
+.poster{
+    width: 100%;
+    height: 92.7vh;
+    background: url(photo/linkin_park_group.jfif) ;
+    margin: 0 auto;
+    background-size: cover;
+}
